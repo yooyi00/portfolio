@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 269.29 269.29">
+  <!-- Generator: Adobe Illustrator 29.4.0, SVG Export Plug-In . SVG Version: 2.1.0 Build 152)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: #231f20;
+        font-family: HeadlineR-HM, 'Headline R';
+        font-size: 12px;
+      }
+
+      .st1 {
+        fill: #fff;
+      }
+
+      .st2 {
+        fill: none;
+        stroke: #231f20;
+        stroke-miterlimit: 10;
+        stroke-width: 5px;
+      }
+
+      .st3 {
+        fill: #f1ccbf;
+      }
+    </style>
+  </defs>
+  <ellipse class="st2" cx="135.08" cy="135.67" rx="108.59" ry="109.49" transform="translate(-6.3 264.77) rotate(-87.53)"/>
+  <g>
+    <path class="st3" d="M114.39,39.69c-7.04-11.82-3.11-27.05,8.8-34.01,11.9-6.96,27.26-3.02,34.3,8.81,7.04,11.82,3.11,27.05-8.8,34.01-11.9,6.96-27.26,3.02-34.3-8.81Z"/>
+    <text class="st0" transform="translate(123.61 29.99) rotate(5.43)"><tspan x="0" y="0">이름</tspan></text>
+  </g>
+  <g>
+    <path class="st3" d="M223.51,226.28c-1.27,13.69-13.45,23.84-27.2,22.67-13.75-1.17-23.86-13.22-22.59-26.92,1.27-13.69,13.45-23.84,27.2-22.67,13.75,1.17,23.86,13.22,22.59,26.92Z"/>
+    <text class="st0" transform="translate(209.36 213.16) rotate(149.65)"><tspan x="0" y="0">LIKE</tspan></text>
+  </g>
+  <g>
+    <path class="st3" d="M48.9,235.9c-7.16-11.83-3.41-27.14,8.36-34.19,11.77-7.06,27.12-3.19,34.28,8.64,7.16,11.83,3.41,27.14-8.36,34.19-11.77,7.06-27.12,3.19-34.28-8.64Z"/>
+    <text class="st0" transform="translate(81.92 227.96) rotate(-138.92)"><tspan x="0" y="0">심플</tspan></text>
+  </g>
+  <g>
+    <path class="st3" d="M52.57,88.19c7.05,11.81,3.19,27.19-8.6,34.35-11.8,7.16-27.07,3.39-34.11-8.42-7.05-11.81-3.19-27.19,8.6-34.35,11.8-7.16,27.07-3.39,34.11,8.42Z"/>
+    <text class="st0" transform="translate(30.14 113.77) rotate(-66.48)"><tspan x="0" y="0">로고</tspan></text>
+  </g>
+  <g>
+    <path class="st1" d="M76.86,71.46c-13.49,3.02-26.81-5.41-29.75-18.81-2.94-13.41,5.62-26.72,19.11-29.74s26.81,5.41,29.75,18.81c2.94,13.41-5.62,26.72-19.11,29.74Z"/>
+    <text class="st0" transform="translate(58.06 59.78) rotate(-30.35)"><tspan x="0" y="0">연관성</tspan></text>
+  </g>
+  <g>
+    <ellipse class="st1" cx="238.94" cy="170.2" rx="25.05" ry="24.84" transform="translate(-18.83 310.26) rotate(-63.98)"/>
+    <text class="st0" transform="translate(242.41 152.07) rotate(113.52)"><tspan x="0" y="0">귀여운</tspan></text>
+  </g>
+  <g>
+    <ellipse class="st1" cx="199.93" cy="48.22" rx="24.84" ry="25.05" transform="translate(27.18 159.82) rotate(-46.42)"/>
+    <text class="st0" transform="translate(192.96 37.96) rotate(41.08)"><tspan x="0" y="0">이목</tspan><tspan x="0" y="14.4">집중</tspan></text>
+  </g>
+  <g>
+    <path class="st1" d="M128.5,220.06c13.47-3.1,26.94,5.22,30.09,18.59,3.15,13.37-5.21,26.71-18.67,29.81-13.47,3.1-26.94-5.22-30.09-18.59s5.21-26.71,18.67-29.81Z"/>
+    <text class="st0" transform="translate(152.5 241.93) rotate(-174.57)"><tspan x="0" y="0">이니셜</tspan></text>
+  </g>
+  <g>
+    <path class="st1" d="M9.54,181.58c-7.18-11.81-3.51-27.22,8.19-34.41,11.7-7.2,26.99-3.46,34.17,8.35,7.18,11.81,3.51,27.22-8.19,34.41s-26.99,3.46-34.17-8.35Z"/>
+    <text class="st0" transform="translate(38.69 185.2) rotate(-102.89)"><tspan x="0" y="0">아이콘</tspan></text>
+  </g>
+  <g>
+    <path class="st3" d="M258.17,119.29c-9.01,10.4-24.7,11.45-35.05,2.35-10.35-9.11-11.44-24.93-2.43-35.33,9.01-10.4,24.7-11.45,35.05-2.35,10.35,9.11,11.44,24.93,2.43,35.33Z"/>
+    <text class="st0" transform="translate(232.81 92) rotate(77.11)"><tspan x="0" y="0">도장</tspan></text>
+  </g>
+</svg>
