@@ -13,7 +13,6 @@ $(function () {
   $(".navi li:nth-child(2)").on("click", function () {
     $(".logo_left li").css({ transform: "translateX(0px)" });
     $(".logo_center").css({ transform: "translateY(0px)" });
-    $(".logo_right li").css({ transform: "translateX(0px)" });
   });
 
   /*cards > li 클릭 시 컨테이너 움직임 및 카드 뒤집는 모션*/
@@ -36,7 +35,7 @@ $(function () {
   });
 
   /*header*/
-  $("header .navi li").on("click", function () {
+  $("header .navi li").on("mouseenter", function () {
     i = $(this).index();
     console.log(i);
     $("header .navi li").removeClass("on");
@@ -54,14 +53,6 @@ $(function () {
   $(".navi li").on("click", function () {
     $(".page li").removeClass("on");
     $(".page li").eq(i).addClass("on");
-  });
-
-  /*intro_left like 모션*/
-  gsap.from(".intro_left .like", {
-    x: -500,
-    duration: 3,
-    rotate: 360,
-    ease: "bounce.out",
   });
 
   /*my_info 나의 정보 setInterval 모션*/
