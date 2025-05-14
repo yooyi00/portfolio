@@ -141,7 +141,7 @@ $(function () {
     start();
   });
 
-  $(".web_icons li").on("click", function () {
+  $(".website li a").on("click", function () {
     clearInterval(stop);
   });
 });
