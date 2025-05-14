@@ -13,6 +13,7 @@ $(function () {
   $(".navi li:nth-child(2)").on("click", function () {
     $(".logo_left li").css({ transform: "translateX(0px)" });
     $(".logo_center").css({ transform: "translateY(0px)" });
+    $(".logo_right li").css({ transform: "translateX(0px)" });
   });
 
   /*cards > li 클릭 시 컨테이너 움직임 및 카드 뒤집는 모션*/
