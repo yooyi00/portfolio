@@ -477,11 +477,11 @@ section {
 .logo_right li:first-child .char {
   visibility: hidden;
   display: inline-block;
-  animation: text 0s steps(2) forwards;
+  animation: 0s steps(2) forwards;
   animation-delay: calc(0.06s * var(--char-index));
 }
 
-@keyframes text {
+@keyframes text2 {
   0% {
     visibility: hidden;
   }
@@ -491,20 +491,29 @@ section {
 }
 
 .logo_right li:last-child {
-  font-size: 1.1rem;
-  font-style: italic;
   height: 20%;
-  margin-top: 100px;
+  margin-top: 80px;
   /*logo_left li에 transition-delay로 시간차를 주어 움직임 주기*/
   transition-delay: 0.6s;
 }
 
+.logo_right li:last-child h4 {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
 .logo_right li:last-child span {
-  background-color: #e1e6e2;
+  background-color: rgba(255, 255, 255, 0.3);
   padding: 10px 20px;
   margin-bottom: 10px;
   display: inline-block;
   border-radius: 20px;
+}
+
+.logo_right li:last-child p {
+  color: #fff;
+  font-size: 1.1rem;
+  font-style: italic;
 }
 
 /*about*/
@@ -524,6 +533,7 @@ section {
   gap: 20px;
   perspective: 1100px;
 }
+
 .cards > li {
   width: 100%;
   height: 100%;
@@ -570,6 +580,7 @@ section {
   position: absolute;
   backface-visibility: hidden;
 }
+
 /*카드 일러스트 배경*/
 .certificate {
   width: 100%;
@@ -581,10 +592,12 @@ section {
   margin-top: 60px;
   position: relative;
 }
+
 .certificate h3 {
   position: absolute;
   top: -70px;
 }
+
 /*click 이미지*/
 .card_01 .click {
   width: 80px;
@@ -593,6 +606,7 @@ section {
   bottom: -10px;
   right: -20px;
 }
+
 .click img {
   width: 100%;
   height: 100%;
@@ -605,6 +619,7 @@ section {
   position: absolute;
   backface-visibility: hidden;
 }
+
 /*카드 일러스트 배경*/
 .career {
   width: 100%;
@@ -616,10 +631,12 @@ section {
   margin-top: 50px;
   position: relative;
 }
+
 .career h3 {
   position: absolute;
   top: -70px;
 }
+
 /*click 이미지*/
 .card_02 .click {
   width: 80px;
@@ -628,6 +645,7 @@ section {
   bottom: -10px;
   right: -20px;
 }
+
 .click img {
   width: 100%;
   height: 100%;
@@ -640,6 +658,7 @@ section {
   position: absolute;
   backface-visibility: hidden;
 }
+
 /*카드 일러스트 배경*/
 .ability {
   width: 100%;
@@ -651,6 +670,7 @@ section {
   margin-top: 60px;
   position: relative;
 }
+
 .ability h3 {
   position: absolute;
   top: -70px;
@@ -664,6 +684,7 @@ section {
   bottom: -10px;
   right: -20px;
 }
+
 .card_03 .click2 {
   width: 250px;
   height: 80px;
@@ -674,6 +695,7 @@ section {
   align-items: baseline;
   gap: 10px;
 }
+
 .click2 img {
   width: 30%;
   height: 100%;
@@ -694,18 +716,22 @@ section {
   transform: rotateY(180deg);
   line-height: 40px;
 }
+
 .card01_back h2 {
   font-size: 2rem;
   margin: 1rem 0;
   font-weight: 500;
 }
+
 .card01_back p {
   font-size: 1.5rem;
 }
+
 .card01_back h4 {
   border-bottom: 3px solid #000;
   margin: 1rem 0;
 }
+
 .card01_back h5 {
   font-size: 1rem;
 }
@@ -750,11 +776,13 @@ section {
   backface-visibility: hidden;
   transform: rotateY(180deg);
 }
+
 .card03_back h2 {
   font-size: 2rem;
   margin: 1rem 0;
   font-weight: 500;
 }
+
 /*card03_back .abicons*/
 .abicons {
   width: 100%;
@@ -765,11 +793,13 @@ section {
   align-items: center;
   gap: 10px;
 }
+
 .abicons li {
   width: calc(100% / 4 - 10px);
   text-align: center;
   overflow: hidden;
 }
+
 .abicons li img {
   width: 70%;
   transition: 0.5s;
@@ -785,6 +815,7 @@ section {
 .click {
   animation: beep 1s linear infinite;
 }
+
 @keyframes beep {
   0% {
     transform: scale(1);
@@ -800,6 +831,7 @@ section {
 .click2 {
   animation: beep 1s linear infinite;
 }
+
 @keyframes beep {
   0% {
     transform: scale(1);
@@ -844,10 +876,12 @@ section {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
 .website > li {
   width: calc(100% / 3 - 20px);
   height: 100%;
 }
+
 .website > li div:first-child {
   width: 100%;
   height: 450px;
@@ -855,6 +889,7 @@ section {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 .website > li > p {
   font-family: "KyoboHand";
   font-size: 1.3rem;
@@ -868,11 +903,13 @@ section {
   font-weight: 600;
   margin: 20px 0;
 }
+
 .web_txt p {
   font-family: "KyoboHand";
   font-size: 1.5rem;
   line-height: 35px;
 }
+
 .web_txt p:last-child {
   font-style: italic;
 }
@@ -896,14 +933,17 @@ section {
   justify-content: start;
   gap: 10px;
 }
+
 .web_icons li {
   width: 100%;
   height: 100%;
 }
+
 .web_icons li img {
   width: 100%;
   height: 100%;
 }
+
 .web_icons .none {
   cursor: auto;
 }
@@ -919,10 +959,12 @@ section {
   color: #f07d63;
   display: flex;
 }
+
 .prev {
   position: absolute;
   left: -500px;
 }
+
 .next {
   position: absolute;
   right: -500px;
@@ -948,12 +990,14 @@ section {
   align-items: center;
   text-align: center;
 }
+
 .project_design li {
   width: calc(100% / 3 - 10px);
   /*페이지 접속(클릭) 시 움직임*/
   transform: translateY(1000px);
   transition: 1s;
 }
+
 .project_design li:nth-child(1) {
   transition-delay: 0.2s;
 }
@@ -993,4 +1037,50 @@ section {
 }
 .design_bg04 {
   background-image: url(../img/bigsale_illu.png);
+}
+.design_bg05 {
+  background-image: url(../img/popup_illu.png);
+}
+
+/*finish*/
+.finish {
+  margin: 0px auto;
+  width: 90%;
+  height: 720px;
+  margin-top: 220px;
+}
+
+/*finWrap*/
+.finWrap {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  border: 2px solid #000;
+}
+
+/*finLeft*/
+.finWrap .finLeft {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+}
+
+.finWrap .finLeft li {
+  width: 50%;
+}
+
+.finWrap .finLeft li img {
+  width: 100%;
+  height: 100%;
+}
+
+/*finRight*/
+.finWrap .finRight {
+  width: 40%;
+  font-size: 20px;
 }

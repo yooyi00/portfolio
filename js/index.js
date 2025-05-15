@@ -14,6 +14,7 @@ $(function () {
     $(".logo_left li").css({ transform: "translateX(0px)" });
     $(".logo_center").css({ transform: "translateY(0px)" });
     $(".logo_right li").css({ transform: "translateX(0px)" });
+    $(".logo_right li:first-child .char").css({ "animation-name": "text2" });
   });
 
   /*cards > li 클릭 시 컨테이너 움직임 및 카드 뒤집는 모션*/
