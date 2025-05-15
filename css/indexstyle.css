@@ -1055,6 +1055,7 @@ section {
   width: 100%;
   height: 100%;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   gap: 20px;
   align-items: center;
@@ -1064,23 +1065,27 @@ section {
 /*finLeft*/
 .finWrap .finLeft {
   width: 50%;
-  display: flex;
-  justify-content: center;
-  gap: 10px;
-  align-items: center;
-}
-
-.finWrap .finLeft li {
-  width: 50%;
-}
-
-.finWrap .finLeft li img {
-  width: 100%;
-  height: 100%;
+  font-size: 20px;
+  border: 1px solid red;
 }
 
 /*finRight*/
 .finWrap .finRight {
-  width: 40%;
-  font-size: 20px;
+  width: 50%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+  border: 1px solid #fff;
+}
+
+.finWrap .finRight li {
+  width: 50%;
+  height: 100%;
+}
+
+.finWrap .finRight li img {
+  width: 100%;
+  height: 100%;
 }
