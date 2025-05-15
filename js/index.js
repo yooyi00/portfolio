@@ -51,12 +51,6 @@ $(function () {
       .animate({ "margin-top": -100 * j + "vh" });
   });
 
-  /*bottom_fix navi의 li를 클릭하면 page li의 i번 째에 클래스 추가*/
-  $(".navi li").on("click", function () {
-    $(".page li").removeClass("on");
-    $(".page li").eq(i).addClass("on");
-  });
-
   /*my_info 나의 정보 setInterval 모션*/
   setInterval(function () {
     $(".my_info")

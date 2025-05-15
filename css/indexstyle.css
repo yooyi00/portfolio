@@ -110,42 +110,6 @@ header .navi li.on a {
   color: #dfe9aa;
 }
 
-/*bottom_fix*/
-.bottom_fix {
-  width: 500px;
-  height: 60px;
-  /* background-color: #fff6e9; */
-  position: fixed;
-  bottom: 10px;
-  left: 50%;
-  transform: translateX(-50%);
-  border: 5px solid #e1e6e1;
-  border-radius: 30px;
-  z-index: 1;
-  line-height: 60px;
-  overflow: hidden;
-  font-size: 2rem;
-  text-align: center;
-  color: #e1e6e2;
-}
-
-/*page*/
-.page {
-  width: 100%;
-  height: 100%;
-  position: relative;
-}
-.page li {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  display: none;
-}
-.page li.on {
-  display: block;
-}
-
 /*container*/
 #container {
   width: 100%;
@@ -520,7 +484,7 @@ section {
 .about {
   margin: 0px auto;
   width: 90%;
-  height: 720px;
+  height: 750px;
   margin-top: 220px;
 }
 
@@ -848,7 +812,7 @@ section {
 .project {
   margin: 0px auto;
   width: 90%;
-  height: 720px;
+  height: 750px;
   margin-top: 250px;
   display: flex;
   justify-content: center;
@@ -975,7 +939,7 @@ section {
   margin: 0px auto;
   width: 80%;
   height: 750px;
-  margin-top: 200px;
+  margin-top: 180px;
 }
 
 /*project_design*/
@@ -993,6 +957,7 @@ section {
 
 .project_design li {
   width: calc(100% / 3 - 10px);
+  height: 50%;
   /*페이지 접속(클릭) 시 움직임*/
   transform: translateY(1000px);
   transition: 1s;
@@ -1020,7 +985,7 @@ section {
 /*design_bg*/
 .project_design div {
   width: 100%;
-  height: 360px;
+  height: 365px;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1046,8 +1011,8 @@ section {
 .finish {
   margin: 0px auto;
   width: 90%;
-  height: 720px;
-  margin-top: 220px;
+  height: 750px;
+  margin-top: 200px;
 }
 
 /*finWrap*/
@@ -1066,6 +1031,7 @@ section {
 .finWrap .finLeft {
   width: 50%;
   font-size: 20px;
+  font-family: "CookieRun-Regular";
   border: 1px solid red;
 }
 
@@ -1088,4 +1054,31 @@ section {
 .finWrap .finRight li img {
   width: 100%;
   height: 100%;
+}
+
+/*finish social*/
+.finWrap .social {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  border: 1px solid #fff;
+}
+
+.finWrap .social li {
+  width: 100%;
+  border: 1px solid #000;
+  cursor: pointer;
+}
+
+.finWrap .social li i {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.finWrap .social li p {
+  font-family: "NEXON Lv2 Gothic";
+  font-weight: 600;
+  font-size: 1.2rem;
 }
