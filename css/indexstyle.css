@@ -963,7 +963,7 @@ section {
 
 .project_design li {
   width: calc(100% / 3 - 10px);
-  height: 50%;
+  height: calc(100% / 2 - 5px);
   /*페이지 접속(클릭) 시 움직임*/
   transform: translateY(1000px);
   transition: 1s;
@@ -991,7 +991,7 @@ section {
 /*design_bg*/
 .project_design li > div {
   width: 100%;
-  height: 365px;
+  height: 100%;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1023,15 +1023,12 @@ section {
   justify-content: center;
   align-items: center;
   color: #fff;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   opacity: 0;
 }
 
 .project_design .design_txt h2 {
   font-weight: normal;
+  margin-bottom: 10px;
 }
 
 .project_design .design_txt p {
